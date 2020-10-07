@@ -1,0 +1,842 @@
+{
+  "id": "1b4129bd-c33e-4881-a083-35938147e0b5",
+  "version": "2.0",
+  "name": "Webserver Test",
+  "url": "https://christopherburgess.xyz/WebServer/index.php",
+  "tests": [{
+    "id": "d164e8bc-7a1b-493c-a1b7-84ce309ca4c6",
+    "name": "Add",
+    "commands": [{
+      "id": "f613eb19-f4ab-4ddb-b095-687c27a028cc",
+      "comment": "",
+      "command": "setSpeed",
+      "target": "",
+      "targets": [],
+      "value": "250ms"
+    }, {
+      "id": "9d8f1c80-ea9a-4a2a-bbfc-6c589adf7976",
+      "comment": "",
+      "command": "open",
+      "target": "https://christopherburgess.xyz/WebServer/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9f6a6f8c-cbfc-4694-9e1d-b29d894fea24",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "32b84156-daea-43bd-aad7-d4a35863d052",
+      "comment": "",
+      "command": "echo",
+      "target": "",
+      "targets": [],
+      "value": "Ryan Burgess"
+    }, {
+      "id": "4dce9e31-77be-45f6-b59c-b6c39a163869",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.num:nth-child(7)",
+      "targets": [
+        ["css=.num:nth-child(7)", "css:finder"],
+        ["xpath=//span[@onclick=\"document.calc.txt.value +='+'\"]", "xpath:attributes"],
+        ["xpath=//span[6]", "xpath:position"],
+        ["xpath=//span[contains(.,'+')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5111df6b-598b-4690-8879-e1550ea1aa65",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.num:nth-child(7)",
+      "targets": [
+        ["css=.num:nth-child(7)", "css:finder"],
+        ["xpath=//span[@onclick=\"document.calc.txt.value +='+'\"]", "xpath:attributes"],
+        ["xpath=//span[6]", "xpath:position"],
+        ["xpath=//span[contains(.,'+')]", "xpath:innerText"]
+      ],
+      "value": "+"
+    }, {
+      "id": "de35323d-0464-40a4-9d9e-d76a689ff6c6",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Ryan's Calculator",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aa49dcb3-c09a-4a05-9172-813578fc468a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.num:nth-child(12)",
+      "targets": [
+        ["css=.num:nth-child(12)", "css:finder"],
+        ["xpath=//span[@onclick=\"document.calc.txt.value +='1'\"]", "xpath:attributes"],
+        ["xpath=//span[11]", "xpath:position"],
+        ["xpath=//span[contains(.,'1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea26997d-e6c5-4686-bae5-407ce3db8422",
+      "comment": "",
+      "command": "click",
+      "target": "css=.num:nth-child(7)",
+      "targets": [
+        ["css=.num:nth-child(7)", "css:finder"],
+        ["xpath=//span[@onclick=\"document.calc.txt.value +='+'\"]", "xpath:attributes"],
+        ["xpath=//span[6]", "xpath:position"],
+        ["xpath=//span[contains(.,'+')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "91d2090f-b922-4ee7-bfc3-8c9c2639d144",
+      "comment": "",
+      "command": "click",
+      "target": "css=.num:nth-child(12)",
+      "targets": [
+        ["css=.num:nth-child(12)", "css:finder"],
+        ["xpath=//span[@onclick=\"document.calc.txt.value +='1'\"]", "xpath:attributes"],
+        ["xpath=//span[11]", "xpath:position"],
+        ["xpath=//span[contains(.,'1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b83345e5-73e2-4660-a705-38881ebe8a50",
+      "comment": "",
+      "command": "click",
+      "target": "css=.equals",
+      "targets": [
+        ["css=.equals", "css:finder"],
+        ["xpath=//span[@onclick='document.calc.txt.value = eval(calc.txt.value)']", "xpath:attributes"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'=')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d03f01f-fada-485f-9633-e5d13647cacb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.clear",
+      "targets": [
+        ["css=.clear", "css:finder"],
+        ["xpath=//span[@onclick=\"document.calc.txt.value =''\"]", "xpath:attributes"],
+        ["xpath=//form/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Clear')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "ab57a9d1-070e-412b-a02b-09f101552960",
+    "name": "Subtract",
+    "commands": [{
+      "id": "f098b642-8426-468a-b3f3-d0cc7e790641",
+      "comment": "",
+      "command": "setSpeed",
+      "target": "",
+      "targets": [],
+      "value": "250ms"
+    }, {
+      "id": "e8039e66-86ca-4218-ad5d-3f3c949f1f1d",
+      "comment": "",
+      "command": "open",
+      "target": "https://christopherburgess.xyz/WebServer/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c88e2de9-6a3b-493f-940f-b9c55cffa391",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fed84a4e-16b9-4133-9f04-046805798990",
+      "comment": "",
+      "command": "echo",
+      "target": "",
+      "targets": [],
+      "value": "Ryan Burgess"
+    }, {
+      "id": "5d46bba9-7f32-4637-9940-5b02f4221b52",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.num:nth-child(11)",
+      "targets": [
+        ["css=.num:nth-child(11)", "css:finder"],
+        ["xpath=//span[@onclick=\"document.calc.txt.value +='-'\"]", "xpath:attributes"],
+        ["xpath=//span[10]", "xpath:position"],
+        ["xpath=//span[contains(.,'-')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "240f5a03-5645-4214-824c-b7b730cc1171",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.num:nth-child(11)",
+      "targets": [
+        ["css=.num:nth-child(11)", "css:finder"],
+        ["xpath=//span[@onclick=\"document.calc.txt.value +='-'\"]", "xpath:attributes"],
+        ["xpath=//span[10]", "xpath:position"],
+        ["xpath=//span[contains(.,'-')]", "xpath:innerText"]
+      ],
+      "value": "-"
+    }, {
+      "id": "24ab2dfa-66b6-41fd-837c-c462e4b31820",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Ryan's Calculator",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "25907122-ab10-4acf-887c-14a16e0c7809",
+      "comment": "",
+      "command": "click",
+      "target": "css=.num:nth-child(10)",
+      "targets": [
+        ["css=.num:nth-child(10)", "css:finder"],
+        ["xpath=//span[@onclick=\"document.calc.txt.value +='6'\"]", "xpath:attributes"],
+        ["xpath=//span[9]", "xpath:position"],
+        ["xpath=//span[contains(.,'6')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0229e80-4677-47d3-8959-f724dfb19bfb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.num:nth-child(11)",
+      "targets": [
+        ["css=.num:nth-child(11)", "css:finder"],
+        ["xpath=//span[@onclick=\"document.calc.txt.value +='-'\"]", "xpath:attributes"],
+        ["xpath=//span[10]", "xpath:position"],
+        ["xpath=//span[contains(.,'-')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a899393-2a78-4071-bafe-523a1a52495b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.num:nth-child(14)",
+      "targets": [
+        ["css=.num:nth-child(14)", "css:finder"],
+        ["xpath=//span[@onclick=\"document.calc.txt.value +='3'\"]", "xpath:attributes"],
+        ["xpath=//span[13]", "xpath:position"],
+        ["xpath=//span[contains(.,'3')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb57c75e-428d-4943-a5b3-8f2e025c85df",
+      "comment": "",
+      "command": "click",
+      "target": "css=.equals",
+      "targets": [
+        ["css=.equals", "css:finder"],
+        ["xpath=//span[@onclick='document.calc.txt.value = eval(calc.txt.value)']", "xpath:attributes"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'=')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f81e6af0-6a78-4122-a088-80c3d7d498f7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.clear",
+      "targets": [
+        ["css=.clear", "css:finder"],
+        ["xpath=//span[@onclick=\"document.calc.txt.value =''\"]", "xpath:attributes"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'Clear')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "40ae3185-c35e-4251-af07-adf34f365fef",
+    "name": "Multiply",
+    "commands": [{
+      "id": "8416211b-4f7e-43ee-9da3-a834d052ac81",
+      "comment": "",
+      "command": "setSpeed",
+      "target": "",
+      "targets": [],
+      "value": "250ms"
+    }, {
+      "id": "581e1e59-d63a-49f8-a72c-e7de0be08849",
+      "comment": "",
+      "command": "open",
+      "target": "https://christopherburgess.xyz/WebServer/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "07f0b4ff-c8b7-42e4-9a52-12f727c96f4f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d1cd8aae-9855-4f99-80f1-302bd4bfea27",
+      "comment": "",
+      "command": "echo",
+      "target": "",
+      "targets": [],
+      "value": "Ryan Burgess"
+    }, {
+      "id": "0f8a0254-2eaf-4112-b1f0-edb0d34dafbd",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.num:nth-child(15)",
+      "targets": [
+        ["css=.num:nth-child(15)", "css:finder"],
+        ["xpath=//span[@onclick=\"document.calc.txt.value +='*'\"]", "xpath:attributes"],
+        ["xpath=//span[14]", "xpath:position"],
+        ["xpath=//span[contains(.,'X')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4bd2ebfa-829f-4321-a55d-3a469d8c5634",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.num:nth-child(15)",
+      "targets": [
+        ["css=.num:nth-child(15)", "css:finder"],
+        ["xpath=//span[@onclick=\"document.calc.txt.value +='*'\"]", "xpath:attributes"],
+        ["xpath=//span[14]", "xpath:position"],
+        ["xpath=//span[contains(.,'X')]", "xpath:innerText"]
+      ],
+      "value": "X"
+    }, {
+      "id": "ba77d5a3-f0c5-4a87-9c1c-11733561698d",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Ryan's Calculator",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "09ed1f91-44cb-442b-ac05-c2888817c83e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.num:nth-child(10)",
+      "targets": [
+        ["css=.num:nth-child(10)", "css:finder"],
+        ["xpath=//span[@onclick=\"document.calc.txt.value +='6'\"]", "xpath:attributes"],
+        ["xpath=//span[9]", "xpath:position"],
+        ["xpath=//span[contains(.,'6')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a949f6f-cf4b-4355-b3cb-54147b8ecce4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.num:nth-child(15)",
+      "targets": [
+        ["css=.num:nth-child(15)", "css:finder"],
+        ["xpath=//span[@onclick=\"document.calc.txt.value +='*'\"]", "xpath:attributes"],
+        ["xpath=//span[14]", "xpath:position"],
+        ["xpath=//span[contains(.,'X')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "52bf6872-f71d-4e1d-8fc5-4b90b0b392c1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.num:nth-child(10)",
+      "targets": [
+        ["css=.num:nth-child(10)", "css:finder"],
+        ["xpath=//span[@onclick=\"document.calc.txt.value +='6'\"]", "xpath:attributes"],
+        ["xpath=//span[9]", "xpath:position"],
+        ["xpath=//span[contains(.,'6')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "211a39ef-71f2-47d9-a50b-a14581a4e0d8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.equals",
+      "targets": [
+        ["css=.equals", "css:finder"],
+        ["xpath=//span[@onclick='document.calc.txt.value = eval(calc.txt.value)']", "xpath:attributes"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'=')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "44022fe8-18fb-4ec4-b711-6081ad252c88",
+      "comment": "",
+      "command": "click",
+      "target": "css=.clear",
+      "targets": [
+        ["css=.clear", "css:finder"],
+        ["xpath=//span[@onclick=\"document.calc.txt.value =''\"]", "xpath:attributes"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'Clear')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "52a70faa-30e7-4574-b0b2-c45c41d78baf",
+    "name": "Divide",
+    "commands": [{
+      "id": "2c1520a4-6554-4900-a80d-3531a642dc61",
+      "comment": "",
+      "command": "setSpeed",
+      "target": "",
+      "targets": [],
+      "value": "250ms"
+    }, {
+      "id": "54c93c7c-03fa-4bb3-9c56-a2d3906bf502",
+      "comment": "",
+      "command": "open",
+      "target": "https://christopherburgess.xyz/WebServer/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2d274f56-96c2-4adb-b140-22e4806ed8d6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aa8650f1-cfb4-404c-8f1c-9993d38555d6",
+      "comment": "",
+      "command": "echo",
+      "target": "",
+      "targets": [],
+      "value": "Ryan Burgess"
+    }, {
+      "id": "2b989655-7257-40a3-97d6-dc1ed0aea5bd",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.num:nth-child(19)",
+      "targets": [
+        ["css=.num:nth-child(19)", "css:finder"],
+        ["xpath=//span[@onclick=\"document.calc.txt.value +='/'\"]", "xpath:attributes"],
+        ["xpath=//span[18]", "xpath:position"],
+        ["xpath=//span[contains(.,'/')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6ea0958-df85-470d-8b21-f83c43b6dd5d",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.num:nth-child(19)",
+      "targets": [
+        ["css=.num:nth-child(19)", "css:finder"],
+        ["xpath=//span[@onclick=\"document.calc.txt.value +='/'\"]", "xpath:attributes"],
+        ["xpath=//span[18]", "xpath:position"],
+        ["xpath=//span[contains(.,'/')]", "xpath:innerText"]
+      ],
+      "value": "/"
+    }, {
+      "id": "d45a8f5e-9359-4d0a-b188-0ae09469e73c",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Ryan's Calculator",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4706d20b-6f64-4994-af69-011abdc5c647",
+      "comment": "",
+      "command": "click",
+      "target": "css=.num:nth-child(10)",
+      "targets": [
+        ["css=.num:nth-child(10)", "css:finder"],
+        ["xpath=//span[@onclick=\"document.calc.txt.value +='6'\"]", "xpath:attributes"],
+        ["xpath=//span[9]", "xpath:position"],
+        ["xpath=//span[contains(.,'6')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7589f7a5-9885-4bdd-9e8c-14b55364fb4d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.num:nth-child(19)",
+      "targets": [
+        ["css=.num:nth-child(19)", "css:finder"],
+        ["xpath=//span[@onclick=\"document.calc.txt.value +='/'\"]", "xpath:attributes"],
+        ["xpath=//span[18]", "xpath:position"],
+        ["xpath=//span[contains(.,'/')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "af0536c2-c58f-4226-a34b-6b9f5573df8b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.num:nth-child(14)",
+      "targets": [
+        ["css=.num:nth-child(14)", "css:finder"],
+        ["xpath=//span[@onclick=\"document.calc.txt.value +='3'\"]", "xpath:attributes"],
+        ["xpath=//span[13]", "xpath:position"],
+        ["xpath=//span[contains(.,'3')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0d36c7b-e544-4753-b0e5-e013815ebaa3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.equals",
+      "targets": [
+        ["css=.equals", "css:finder"],
+        ["xpath=//span[@onclick='document.calc.txt.value = eval(calc.txt.value)']", "xpath:attributes"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'=')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "794e8670-d560-4e0b-ab0e-04f2e5ffa2bb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.clear",
+      "targets": [
+        ["css=.clear", "css:finder"],
+        ["xpath=//span[@onclick=\"document.calc.txt.value =''\"]", "xpath:attributes"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'Clear')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "9e3df865-1534-448c-8336-5449f0305560",
+    "name": "Power",
+    "commands": [{
+      "id": "68afead6-ab58-491c-8093-8d9108ce8cdc",
+      "comment": "",
+      "command": "setSpeed",
+      "target": "",
+      "targets": [],
+      "value": "250ms"
+    }, {
+      "id": "d35190bf-42fc-4a42-93cf-900efb61a91b",
+      "comment": "",
+      "command": "open",
+      "target": "https://christopherburgess.xyz/WebServer/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "38a0021d-4baf-434f-a500-1d780989ee57",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8f7c31b8-e13d-4cd5-8c8c-2b60ca5ff893",
+      "comment": "",
+      "command": "echo",
+      "target": "",
+      "targets": [],
+      "value": "Ryan Burgess"
+    }, {
+      "id": "8e3f3a53-b75f-40b9-8da2-d108f4cfb640",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.num:nth-child(18)",
+      "targets": [
+        ["css=.num:nth-child(18)", "css:finder"],
+        ["xpath=//span[@onclick=\"document.calc.txt.value +='**'\"]", "xpath:attributes"],
+        ["xpath=//span[17]", "xpath:position"],
+        ["xpath=//span[contains(.,'^')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c587f1c5-23a8-467c-b839-b82b1419629b",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.num:nth-child(18)",
+      "targets": [
+        ["css=.num:nth-child(18)", "css:finder"],
+        ["xpath=//span[@onclick=\"document.calc.txt.value +='**'\"]", "xpath:attributes"],
+        ["xpath=//span[17]", "xpath:position"],
+        ["xpath=//span[contains(.,'^')]", "xpath:innerText"]
+      ],
+      "value": "^"
+    }, {
+      "id": "21c6bca1-74d9-422c-aba8-6ce9fdd892e4",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Ryan's Calculator",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1c9afa32-7b23-4f31-8a54-2aa19d368ff2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.num:nth-child(14)",
+      "targets": [
+        ["css=.num:nth-child(14)", "css:finder"],
+        ["xpath=//span[@onclick=\"document.calc.txt.value +='3'\"]", "xpath:attributes"],
+        ["xpath=//span[13]", "xpath:position"],
+        ["xpath=//span[contains(.,'3')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c947cde4-6ea5-44d4-b8c5-1c81c2acef37",
+      "comment": "",
+      "command": "click",
+      "target": "css=.num:nth-child(18)",
+      "targets": [
+        ["css=.num:nth-child(18)", "css:finder"],
+        ["xpath=//span[@onclick=\"document.calc.txt.value +='**'\"]", "xpath:attributes"],
+        ["xpath=//span[17]", "xpath:position"],
+        ["xpath=//span[contains(.,'^')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "35a4e5fd-c22a-45dd-8192-9ced7db3940a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.num:nth-child(14)",
+      "targets": [
+        ["css=.num:nth-child(14)", "css:finder"],
+        ["xpath=//span[@onclick=\"document.calc.txt.value +='3'\"]", "xpath:attributes"],
+        ["xpath=//span[13]", "xpath:position"],
+        ["xpath=//span[contains(.,'3')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0a17c47-b1d8-4346-95a3-886c67c20141",
+      "comment": "",
+      "command": "click",
+      "target": "css=.equals",
+      "targets": [
+        ["css=.equals", "css:finder"],
+        ["xpath=//span[@onclick='document.calc.txt.value = eval(calc.txt.value)']", "xpath:attributes"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'=')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce5b269c-70dd-45d3-951b-ef9ca04c2c6c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.clear",
+      "targets": [
+        ["css=.clear", "css:finder"],
+        ["xpath=//span[@onclick=\"document.calc.txt.value =''\"]", "xpath:attributes"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'Clear')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "223d06ad-d963-4f73-8141-59c4e87de723",
+    "name": "Negative1",
+    "commands": [{
+      "id": "e01760f7-07be-45e2-88c5-8f11929d20cd",
+      "comment": "",
+      "command": "setSpeed",
+      "target": "",
+      "targets": [],
+      "value": "250ms"
+    }, {
+      "id": "8336d7fa-9223-435a-a820-73ec981b80e5",
+      "comment": "",
+      "command": "open",
+      "target": "https://christopherburgess.xyz/WebServer/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "33aa5d55-676d-4bd6-9fd2-4a2cbc92824d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fed46ba5-85c5-4618-8984-7adcab042b35",
+      "comment": "",
+      "command": "echo",
+      "target": "",
+      "targets": [],
+      "value": "Ryan Burgess"
+    }, {
+      "id": "43954ff6-046d-4654-9428-6539d9bcc5b4",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.num:nth-child(11)",
+      "targets": [
+        ["css=.num:nth-child(11)", "css:finder"],
+        ["xpath=//span[@onclick=\"document.calc.txt.value +='-'\"]", "xpath:attributes"],
+        ["xpath=//span[10]", "xpath:position"],
+        ["xpath=//span[contains(.,'-')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9733e3b-4131-4496-a407-cafeffce6709",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.num:nth-child(11)",
+      "targets": [
+        ["css=.num:nth-child(11)", "css:finder"],
+        ["xpath=//span[@onclick=\"document.calc.txt.value +='-'\"]", "xpath:attributes"],
+        ["xpath=//span[10]", "xpath:position"],
+        ["xpath=//span[contains(.,'-')]", "xpath:innerText"]
+      ],
+      "value": "-"
+    }, {
+      "id": "e3f81479-ef98-417d-a0e4-042d59a833f0",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Ryan's Calculator",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2c8d9610-fabc-40b2-8df7-5f7d32fbb7fd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.num:nth-child(11)",
+      "targets": [
+        ["css=.num:nth-child(11)", "css:finder"],
+        ["xpath=//span[@onclick=\"document.calc.txt.value +='-'\"]", "xpath:attributes"],
+        ["xpath=//span[10]", "xpath:position"],
+        ["xpath=//span[contains(.,'-')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e0582ba-f7a3-4c04-ac50-74d47e03b846",
+      "comment": "",
+      "command": "click",
+      "target": "css=.num:nth-child(12)",
+      "targets": [
+        ["css=.num:nth-child(12)", "css:finder"],
+        ["xpath=//span[@onclick=\"document.calc.txt.value +='1'\"]", "xpath:attributes"],
+        ["xpath=//span[11]", "xpath:position"],
+        ["xpath=//span[contains(.,'1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad9d8afd-7c4d-401b-be25-9ec0047337a6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.equals",
+      "targets": [
+        ["css=.equals", "css:finder"],
+        ["xpath=//span[@onclick='document.calc.txt.value = eval(calc.txt.value)']", "xpath:attributes"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'=')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "537d797b-7646-4724-90cc-93389447359f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.clear",
+      "targets": [
+        ["css=.clear", "css:finder"],
+        ["xpath=//span[@onclick=\"document.calc.txt.value =''\"]", "xpath:attributes"],
+        ["xpath=//form/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Clear')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "bf5b9763-53aa-4080-93e7-5e44e65edae4",
+    "name": "Negative2",
+    "commands": [{
+      "id": "83fee2dc-aaa9-43fe-aa9b-e4ad7c68ea65",
+      "comment": "",
+      "command": "setSpeed",
+      "target": "",
+      "targets": [],
+      "value": "250ms"
+    }, {
+      "id": "cc779aa8-d80a-472e-8b76-74fe34afac40",
+      "comment": "",
+      "command": "open",
+      "target": "https://christopherburgess.xyz/WebServer/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "02c55950-de11-4fcb-8395-c79ce5d99f34",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "940ae906-5cdb-440c-bbff-24b21d829485",
+      "comment": "",
+      "command": "echo",
+      "target": "",
+      "targets": [],
+      "value": "Ryan Burgess"
+    }, {
+      "id": "328d2070-c0e7-44c0-811c-8ad786605dcb",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.num:nth-child(11)",
+      "targets": [
+        ["css=.num:nth-child(11)", "css:finder"],
+        ["xpath=//span[@onclick=\"document.calc.txt.value +='-'\"]", "xpath:attributes"],
+        ["xpath=//span[10]", "xpath:position"],
+        ["xpath=//span[contains(.,'-')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e759deeb-a6a9-4b59-9ee6-bd1bc51b7f92",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.num:nth-child(11)",
+      "targets": [
+        ["css=.num:nth-child(11)", "css:finder"],
+        ["xpath=//span[@onclick=\"document.calc.txt.value +='-'\"]", "xpath:attributes"],
+        ["xpath=//span[10]", "xpath:position"],
+        ["xpath=//span[contains(.,'-')]", "xpath:innerText"]
+      ],
+      "value": "-"
+    }, {
+      "id": "a1c99b2c-951c-4f17-ac3e-786b3eeee2d1",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Ryan's Calculator",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9ea64b66-dc1b-416e-b12e-edc7de3c8d2b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.num:nth-child(11)",
+      "targets": [
+        ["css=.num:nth-child(11)", "css:finder"],
+        ["xpath=//span[@onclick=\"document.calc.txt.value +='-'\"]", "xpath:attributes"],
+        ["xpath=//span[10]", "xpath:position"],
+        ["xpath=//span[contains(.,'-')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0c03cf8-6aff-4d5a-b59c-dab2f381b8ca",
+      "comment": "",
+      "command": "click",
+      "target": "css=.num:nth-child(13)",
+      "targets": [
+        ["css=.num:nth-child(13)", "css:finder"],
+        ["xpath=//span[@onclick=\"document.calc.txt.value +='2'\"]", "xpath:attributes"],
+        ["xpath=//span[12]", "xpath:position"],
+        ["xpath=//span[contains(.,'2')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "324bb0e7-6e28-4178-b912-65fd0771a96a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.equals",
+      "targets": [
+        ["css=.equals", "css:finder"],
+        ["xpath=//span[@onclick='document.calc.txt.value = eval(calc.txt.value)']", "xpath:attributes"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'=')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "05668a6c-361a-447f-84fd-3075b19f2e4b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d164e8bc-7a1b-493c-a1b7-84ce309ca4c6"]
+  }],
+  "urls": ["https://christopherburgess.xyz/WebServer/index.php"],
+  "plugins": []
+}

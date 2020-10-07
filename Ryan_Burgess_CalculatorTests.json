@@ -1,0 +1,139 @@
+{
+	"info": {
+		"_postman_id": "3e5c1df3-7a6a-4df7-bdcf-29da99b92e18",
+		"name": "Ryan_Burgess_CalculatorTests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Status Code Test",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "e9f2ac72-9754-46e9-aa0a-dd9f49c2759e",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://christopherburgess.xyz/WebServer/index.php",
+					"protocol": "https",
+					"host": [
+						"christopherburgess",
+						"xyz"
+					],
+					"path": [
+						"WebServer",
+						"index.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Website request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://christopherburgess.xyz/WebServer/index.php",
+					"protocol": "https",
+					"host": [
+						"christopherburgess",
+						"xyz"
+					],
+					"path": [
+						"WebServer",
+						"index.php"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Content Header Check",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "14cbcbe7-096c-4e64-a969-2eb2ea0cc710",
+						"exec": [
+							"pm.test(\"Content-Type is present\", function () {\r",
+							"    pm.response.to.have.header(\"Content-Type\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://christopherburgess.xyz/WebServer/index.php",
+					"protocol": "https",
+					"host": [
+						"christopherburgess",
+						"xyz"
+					],
+					"path": [
+						"WebServer",
+						"index.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Title Test",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "61ee53b5-d620-4de1-ba6c-2354dfeee705",
+						"exec": [
+							"pm.test(\"Body matches string\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"Ryan's Calculator\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://christopherburgess.xyz/WebServer/index.php",
+					"protocol": "https",
+					"host": [
+						"christopherburgess",
+						"xyz"
+					],
+					"path": [
+						"WebServer",
+						"index.php"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
